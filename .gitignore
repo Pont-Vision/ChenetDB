@@ -1,0 +1,14 @@
+# Python & uv artifacts
+__pycache__/
+*.pyc
+.python-version
+.venv/
+uv.lock
+dist/
+build/
+*.egg-info/
+
+# IDE settings (optional but recommended)
+.vscode/
+.idea/
+.DS_Store
