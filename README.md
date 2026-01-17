@@ -73,7 +73,6 @@ MongoDB is an incredible document store, but handling complex relationships ofte
 It provides a strictly typed graph layer that abstracts the complexity of storing networks in a document database.
 
 
-
 ### Key Features (Planned)
 * **3-Collection Architecture:** Automatically manages separate collections for `_nodes`, `_edges`, and `_logs` for every graph.
 * **Rich Properties:** Nodes and Edges are fully compliant MongoDB documents (store JSON of any complexity).
@@ -81,17 +80,4 @@ It provides a strictly typed graph layer that abstracts the complexity of storin
 * **Audit Logging:** Built-in history tracking for graph mutations.
 * **Pythonic API:** Feels like `NetworkX`, scales like `MongoDB`.
 
----
 
-## 🛠️ Installation
-
-*Coming soon to PyPI.*
-
-Currently, you can install the development version via `uv` or `pip` from source:
-
-```bash
-# Using uv (Recommended for contributors)
-uv sync
-
-# Or standard pip
-pip install git+[https://github.com/Pont-Vision/ChenetDB.git](https://github.com/Pont-Vision/ChenetDB.git)
